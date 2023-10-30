@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /401.html
+Disallow: /404.html
+Disallow: /tietosuojaseloste.html
+Disallow: /evastekaytannot.html
+
+# Exclude paginated URLs to prevent duplicate content indexing
+Disallow: /*?page=
+
+# Sitemap location
+Sitemap: https://www.henrikontkin.fi/sitemap.xml
