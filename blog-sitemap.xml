@@ -5,6 +5,11 @@
         xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
+        <loc>https://www.henrikontkin.fi/julkaisu/kohti-uutta-vuotta-ja-uusia-kaupunkipolitiikan-haasteita</loc>
+        <priority>0.50</priority>
+        <xhtml:link rel="alternate" hreflang="fi" href="https://www.henrikontkin.fi/julkaisu/kohti-uutta-vuotta-ja-uusia-kaupunkipolitiikan-haasteita"/>
+    </url>
+    <url>
         <loc>https://www.henrikontkin.fi/julkaisu/politiikan-kuukausikatsaus-11-2023-vahemman-investointeja-vahemman-velkataakkaa-jarvenpaalle</loc>
         <priority>0.50</priority>
         <xhtml:link rel="alternate" hreflang="fi" href="https://www.henrikontkin.fi/julkaisu/politiikan-kuukausikatsaus-11-2023-vahemman-investointeja-vahemman-velkataakkaa-jarvenpaalle"/>
