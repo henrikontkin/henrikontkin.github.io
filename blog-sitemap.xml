@@ -5,6 +5,13 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>
+            https://www.henrikontkin.fi/julkaisu/kaupunkipolitiikan-kesalaitumet-pysakointi-sailyy-jarvenpaassa-maksuttomana-mutta-kaupungin-peittavat-tummat-talouspilvet</loc>
+        <priority>0.50</priority>
+        <xhtml:link rel="alternate" hreflang="fi"
+            href="https://www.henrikontkin.fi/julkaisu/kaupunkipolitiikan-kesalaitumet-pysakointi-sailyy-jarvenpaassa-maksuttomana-mutta-kaupungin-peittavat-tummat-talouspilvet" />
+    </url>
+    <url>
+        <loc>
             https://www.henrikontkin.fi/julkaisu/hok-elannon-edustajiston-vaalit-2024</loc>
         <priority>0.50</priority>
         <xhtml:link rel="alternate" hreflang="fi"
