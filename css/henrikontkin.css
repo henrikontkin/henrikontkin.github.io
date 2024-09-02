@@ -227,7 +227,7 @@ blockquote {
 }
 
 .dropdown-main-list {
-  box-shadow: 0 10px 18px -6px rgba(0, 0, 0, .05), 0 3px 5px -3px rgba(16, 24, 40, .03);
+  box-shadow: 0 10px 18px -6px #0000000d, 0 3px 5px -3px #10182808;
 }
 
 .dropdown-main-list.w--open {
@@ -255,7 +255,7 @@ blockquote {
 .nav-component {
   grid-column-gap: 16px;
   grid-row-gap: 16px;
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   grid-template-rows: auto;
   grid-template-columns: 1fr 1fr 1fr;
   grid-auto-columns: 1fr;
@@ -264,10 +264,7 @@ blockquote {
   padding: 30px 3% 20px;
   display: flex;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .flex-nav-button {
@@ -308,8 +305,7 @@ blockquote {
   grid-template-rows: auto;
   grid-template-columns: 100%;
   grid-auto-columns: 100%;
-  align-items: flex-start;
-  justify-items: start;
+  place-items: flex-start start;
   display: flex;
 }
 
@@ -568,7 +564,7 @@ blockquote {
 }
 
 .display-1.color {
-  color: rgba(0, 174, 239, .3);
+  color: #00aeef4d;
 }
 
 .display-1.color.margin-top {
@@ -689,7 +685,7 @@ blockquote {
 }
 
 .line-animation {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   width: 100%;
   height: 1px;
   margin-top: 3px;
@@ -749,10 +745,7 @@ blockquote {
   height: 100%;
   display: none;
   position: absolute;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: auto;
+  inset: 0% auto auto 0%;
 }
 
 .section {
@@ -786,7 +779,6 @@ blockquote {
 }
 
 .section.full.sticky {
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -1005,56 +997,56 @@ blockquote {
 }
 
 .feautes-item._2.vapaus-ja-vastuunkanto {
-  background-image: linear-gradient(rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)), url('../images/vapaus.svg');
+  background-image: linear-gradient(#ffffffd9, #ffffffd9), url('../images/vapaus.svg');
   background-position: 0 0, 90% 100%;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto 75%;
 }
 
 .feautes-item._2.usko-parempaan-huomiseen {
-  background-image: linear-gradient(rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)), url('../images/usko.svg');
+  background-image: linear-gradient(#ffffffd9, #ffffffd9), url('../images/usko.svg');
   background-position: 0 0, 90% 100%;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto 75%;
 }
 
 .feautes-item._2.yhteis-llisyyden-voima {
-  background-image: linear-gradient(rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)), url('../images/yhteiso.svg');
+  background-image: linear-gradient(#ffffffd9, #ffffffd9), url('../images/yhteiso.svg');
   background-position: 0 0, 90% 100%;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto 75%;
 }
 
 .feautes-item._2.mahdollisuuksien-tasa-arvo {
-  background-image: linear-gradient(rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)), url('../images/tasa-arvo.svg');
+  background-image: linear-gradient(#ffffffd9, #ffffffd9), url('../images/tasa-arvo.svg');
   background-position: 0 0, 90% 100%;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto 75%;
 }
 
 .feautes-item._2.hyvinvointia-kaikenik-isille {
-  background-image: linear-gradient(rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)), url('../images/meditate_3202846.svg');
+  background-image: linear-gradient(#ffffffd9, #ffffffd9), url('../images/meditate_3202846.svg');
   background-position: 0 0, 90% 100%;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto 75%;
 }
 
 .feautes-item._2.menestyksen-mahdollistaminen {
-  background-image: linear-gradient(rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)), url('../images/success_1642120.svg');
+  background-image: linear-gradient(#ffffffd9, #ffffffd9), url('../images/success_1642120.svg');
   background-position: 0 0, 90% 100%;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto 75%;
 }
 
 .feautes-item._2.talouden-kivijalka-kunnossa {
-  background-image: linear-gradient(rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)), url('../images/piggy-bank_584093.svg');
+  background-image: linear-gradient(#ffffffd9, #ffffffd9), url('../images/piggy-bank_584093.svg');
   background-position: 0 0, 90% 100%;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto 75%;
 }
 
 .feautes-item._2.sivistyksen-ja-osaamisen-vahvistaminen {
-  background-image: linear-gradient(rgba(255, 255, 255, .85), rgba(255, 255, 255, .85)), url('../images/thought_775497.svg');
+  background-image: linear-gradient(#ffffffd9, #ffffffd9), url('../images/thought_775497.svg');
   background-position: 0 0, 90% 100%;
   background-repeat: repeat, no-repeat;
   background-size: auto, auto 75%;
@@ -1075,10 +1067,7 @@ blockquote {
   margin-right: auto;
   padding: 24px 0% 0;
   position: static;
-  top: 0%;
-  bottom: auto;
-  left: 0%;
-  right: 0%;
+  inset: 0% 0% auto;
 }
 
 .icon-outline {
@@ -1100,7 +1089,7 @@ blockquote {
 }
 
 .sticky-div {
-  background-color: rgba(176, 217, 235, .4);
+  background-color: #b0d9eb66;
   justify-content: center;
   align-items: center;
   min-height: 80svh;
@@ -1108,7 +1097,6 @@ blockquote {
   padding-left: 5%;
   padding-right: 5%;
   display: block;
-  position: -webkit-sticky;
   position: sticky;
   top: 0;
 }
@@ -1283,6 +1271,10 @@ blockquote {
   background-image: url('../images/kaupunkipolitiikan-kesalaitumet-pieni.webp');
 }
 
+.blog-thumbnail.lis-valtaa-p-tt-jille-kohti-valtuustokauden-viimeist-syksy {
+  background-image: url('../images/lisaa-valtaa-paattajille-kohti-valtuustokauden-viimeista-syksya-nelio.webp');
+}
+
 .category-text {
   color: #838383;
   margin-bottom: 12px;
@@ -1379,7 +1371,7 @@ blockquote {
 }
 
 .paragraph-blue-60 {
-  color: rgba(17, 42, 70, .6);
+  color: #112a4699;
   margin-bottom: 32px;
   font-size: 18px;
   line-height: 22px;
@@ -1489,7 +1481,7 @@ blockquote {
 }
 
 .text-area {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   border: 1px solid #e9e9e9;
   margin-bottom: 0;
   padding: 15px 20px 35px;
@@ -1537,7 +1529,7 @@ blockquote {
 }
 
 .input {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   border: 1px solid #e9e9e9;
   min-height: 56px;
   margin-bottom: 0;
@@ -1563,7 +1555,7 @@ blockquote {
 }
 
 .gray-text-2 {
-  color: rgba(44, 44, 44, .5);
+  color: #2c2c2c80;
 }
 
 .qa-text {
@@ -1630,7 +1622,7 @@ blockquote {
 }
 
 .toggle-content {
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   padding: 20px 20px 10px 0;
   position: relative;
 }
@@ -1777,13 +1769,10 @@ blockquote {
 
 .hide-me-overlay {
   z-index: 8888;
-  background-color: rgba(0, 0, 0, .4);
+  background-color: #0006;
   display: none;
   position: fixed;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
   overflow: auto;
 }
 
@@ -1810,10 +1799,7 @@ blockquote {
   opacity: .25;
   cursor: pointer;
   position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  inset: 0;
 }
 
 .upgrade-button {
@@ -1827,12 +1813,12 @@ blockquote {
   line-height: 1.6em;
   text-decoration: none;
   transition: background-color .3s, box-shadow .3s;
-  box-shadow: 0 20px 30px -10px rgba(24, 16, 99, .36);
+  box-shadow: 0 20px 30px -10px #1810635c;
 }
 
 .upgrade-button:hover {
   background-color: #000;
-  box-shadow: 0 10px 20px -5px rgba(24, 16, 99, .36);
+  box-shadow: 0 10px 20px -5px #1810635c;
 }
 
 .cta-image {
@@ -1895,12 +1881,11 @@ blockquote {
 }
 
 .gray-text-3 {
-  color: rgba(44, 44, 44, .5);
+  color: #2c2c2c80;
 }
 
 .sidebar {
   margin-top: 20px;
-  position: -webkit-sticky;
   position: sticky;
   top: 100px;
 }
@@ -2171,8 +2156,8 @@ blockquote {
 }
 
 .social-link-2.round {
-  background-color: rgba(0, 0, 0, 0);
-  border: 1px solid rgba(27, 27, 27, .1);
+  background-color: #0000;
+  border: 1px solid #1b1b1b1a;
   border-radius: 50%;
   justify-content: center;
   align-items: center;
@@ -2185,8 +2170,8 @@ blockquote {
 }
 
 .social-link-2.round:hover {
-  background-color: rgba(27, 27, 27, .1);
-  border-color: rgba(0, 0, 0, 0);
+  background-color: #1b1b1b1a;
+  border-color: #0000;
 }
 
 .social-icon-small {
@@ -2297,7 +2282,7 @@ blockquote {
 
 .cookie-modal_button.is-secondary {
   color: var(--black-2);
-  background-color: rgba(0, 0, 0, 0);
+  background-color: #0000;
   padding-left: 0;
   padding-right: 0;
   font-size: .875rem;
@@ -2322,7 +2307,7 @@ blockquote {
   line-height: 1.4;
   display: flex;
   position: relative;
-  box-shadow: 0 4px 1rem rgba(38, 41, 38, .05);
+  box-shadow: 0 4px 1rem #2629260d;
 }
 
 .cookie-modal_button-wrap {
@@ -2386,10 +2371,7 @@ blockquote {
   max-width: 25rem;
   display: none;
   position: fixed;
-  top: auto;
-  bottom: 1.25rem;
-  left: auto;
-  right: 1.25rem;
+  inset: auto 1.25rem 1.25rem auto;
 }
 
 .cookie-link {
@@ -2477,7 +2459,7 @@ blockquote {
   }
 
   .menu-button.w--open {
-    background-color: rgba(0, 0, 0, 0);
+    background-color: #0000;
   }
 
   .nav-link {
@@ -2500,7 +2482,7 @@ blockquote {
   .dropdown-main-list.w--open {
     box-shadow: none;
     border-style: none;
-    border-color: rgba(0, 0, 0, 0);
+    border-color: #0000;
     width: auto;
     padding: 0;
   }
@@ -3293,7 +3275,7 @@ blockquote {
   }
 
   .hero {
-    background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0));
+    background-image: linear-gradient(#0000, #0000);
     justify-content: center;
     padding-top: 40px;
     display: block;
@@ -3748,10 +3730,7 @@ blockquote {
 
   .cookie-popup_component {
     max-width: 100%;
-    top: auto;
-    bottom: 0%;
-    left: 0%;
-    right: 0%;
+    inset: auto 0% 0%;
   }
 }
 
@@ -3760,11 +3739,10 @@ blockquote {
 }
 
 #w-node-_5d687ace-4b60-0318-e32f-3725b9b6e62f-76bf41d7 {
-  align-self: center;
-  justify-self: center;
+  place-self: center;
 }
 
-#w-node-_08382b01-1c9d-ddff-a5b3-3dad679004d0-76bf41d7, #w-node-_08382b01-1c9d-ddff-a5b3-3dad679004d4-76bf41d7, #w-node-_97164ae2-855b-066b-d061-ba59cbc7de98-cbc7de95, #w-node-c6eabd7e-7a93-ba06-69c6-4f4b801852f9-cbc7de95, #w-node-_30ad7da1-cbe0-954d-9d54-1cb608604836-08604826, #w-node-_30ad7da1-cbe0-954d-9d54-1cb608604845-08604826, #w-node-_02aa2e61-b895-5e15-1c88-614c9e809f77-08604826 {
+#w-node-_08382b01-1c9d-ddff-a5b3-3dad679004d0-76bf41d7, #w-node-_08382b01-1c9d-ddff-a5b3-3dad679004d4-76bf41d7, #w-node-_97164ae2-855b-066b-d061-ba59cbc7de98-cbc7de95, #w-node-c6eabd7e-7a93-ba06-69c6-4f4b801852f9-cbc7de95, #w-node-_0c2081c3-74b8-964f-b98e-3f80c68ba370-08604826, #w-node-_30ad7da1-cbe0-954d-9d54-1cb608604836-08604826, #w-node-_30ad7da1-cbe0-954d-9d54-1cb608604845-08604826 {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
@@ -3772,7 +3750,7 @@ blockquote {
   grid-area: 1 / 1 / 2 / 2;
 }
 
-#w-node-d878fc2b-5364-4613-2f7e-f75e1795fb29-1795fb20, #w-node-a6588480-0a5c-11f3-41c0-fd656ecf3417-85071e42, #w-node-_8dc781d2-98cf-38e8-014c-70a71431c3c9-85071e42, #w-node-_8dc781d2-98cf-38e8-014c-70a71431c3e2-85071e42, #w-node-bc0af00e-6176-e9db-a1ce-0fc6b58807af-2577d948, #w-node-_936bcff8-b662-2779-0eea-f9c6cb638334-2577d948, #w-node-_4a840b33-1e4e-a920-af48-5df89c53a2ca-2577d948, #w-node-_3f352dae-9238-ab19-9ece-41473c093973-2577d948, #w-node-_33632990-569e-1d47-ec14-b207c850b232-2577d948, #w-node-_9f1b8b73-8366-cfee-470c-ddac84634b56-2577d948, #w-node-bc0af00e-6176-e9db-a1ce-0fc6b58807be-2577d948, #w-node-_2cc7b9e3-cfa9-b533-7a73-17fab5401183-2577d948, #w-node-bc0af00e-6176-e9db-a1ce-0fc6b58807cd-2577d948, #w-node-c656e841-c6e3-3e38-759c-5b13b258d6a4-2577d948, #w-node-_3b05e86d-c8e8-52fa-14e6-534997c62320-2577d948, #w-node-_91a03a0c-8ef0-e39a-d8de-586f1f07c3c9-2577d948, #w-node-b6fcb7ab-3684-ce65-56a5-b64bc9c7a2d3-2577d948, #w-node-a50897a5-c77e-0b74-11d3-efcf29729fff-2577d948, #w-node-a9069edb-24fb-20aa-4b5a-7c596c52a24b-2577d948, #w-node-c35bb998-4c5f-0ba8-073d-2ab6a051cf8a-2577d948, #w-node-_042f6140-1723-eb63-2528-57a538a57b68-2577d948, #w-node-_4564f625-30dd-dbd5-9067-4c480c989c07-2577d948, #w-node-_991f2091-ca26-6008-2c36-97cadc880da4-2577d948, #w-node-_01e0ec5c-8089-b1cb-0c5d-5ef0bad3a597-2577d948, #w-node-_8f4ad59a-c163-6150-4527-553c672f7cac-2577d948, #w-node-b900546a-a655-96b1-67db-b0a758ab4f5b-2577d948, #w-node-_6e73da3e-1324-f1dd-db45-9b274fb78402-2577d948, #w-node-_26bcc85d-ec27-28c9-61fc-2016d2a324dd-2696ec8c {
+#w-node-d878fc2b-5364-4613-2f7e-f75e1795fb29-1795fb20, #w-node-a6588480-0a5c-11f3-41c0-fd656ecf3417-85071e42, #w-node-_8dc781d2-98cf-38e8-014c-70a71431c3c9-85071e42, #w-node-_8dc781d2-98cf-38e8-014c-70a71431c3e2-85071e42, #w-node-bc0af00e-6176-e9db-a1ce-0fc6b58807af-2577d948, #w-node-e4667b0b-1db5-49e4-1747-a1786132d95c-2577d948, #w-node-_936bcff8-b662-2779-0eea-f9c6cb638334-2577d948, #w-node-_4a840b33-1e4e-a920-af48-5df89c53a2ca-2577d948, #w-node-_3f352dae-9238-ab19-9ece-41473c093973-2577d948, #w-node-_33632990-569e-1d47-ec14-b207c850b232-2577d948, #w-node-_9f1b8b73-8366-cfee-470c-ddac84634b56-2577d948, #w-node-bc0af00e-6176-e9db-a1ce-0fc6b58807be-2577d948, #w-node-_2cc7b9e3-cfa9-b533-7a73-17fab5401183-2577d948, #w-node-bc0af00e-6176-e9db-a1ce-0fc6b58807cd-2577d948, #w-node-c656e841-c6e3-3e38-759c-5b13b258d6a4-2577d948, #w-node-_3b05e86d-c8e8-52fa-14e6-534997c62320-2577d948, #w-node-_91a03a0c-8ef0-e39a-d8de-586f1f07c3c9-2577d948, #w-node-b6fcb7ab-3684-ce65-56a5-b64bc9c7a2d3-2577d948, #w-node-a50897a5-c77e-0b74-11d3-efcf29729fff-2577d948, #w-node-a9069edb-24fb-20aa-4b5a-7c596c52a24b-2577d948, #w-node-c35bb998-4c5f-0ba8-073d-2ab6a051cf8a-2577d948, #w-node-_042f6140-1723-eb63-2528-57a538a57b68-2577d948, #w-node-_4564f625-30dd-dbd5-9067-4c480c989c07-2577d948, #w-node-_991f2091-ca26-6008-2c36-97cadc880da4-2577d948, #w-node-_01e0ec5c-8089-b1cb-0c5d-5ef0bad3a597-2577d948, #w-node-_8f4ad59a-c163-6150-4527-553c672f7cac-2577d948, #w-node-b900546a-a655-96b1-67db-b0a758ab4f5b-2577d948, #w-node-_6e73da3e-1324-f1dd-db45-9b274fb78402-2577d948, #w-node-_26bcc85d-ec27-28c9-61fc-2016d2a324dd-2696ec8c {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 
@@ -3792,7 +3770,7 @@ blockquote {
   grid-area: span 1 / span 2 / span 1 / span 2;
 }
 
-#w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-22573b68, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-c0c07a92, #w-node-_3f36eeec-3995-d4da-a5a0-c418d1a2468b-c0c07a92, #w-node-_3f36eeec-3995-d4da-a5a0-c418d1a2467c-c0c07a92, #w-node-_3f36eeec-3995-d4da-a5a0-c418d1a2469a-c0c07a92, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-f8203bac, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-acf0912d, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-d04c00ec, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-3bb8942a, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-dc189bd4, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-19f60f72, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-1eff49ec, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-4d96c5bd, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-6d69b380, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-19f9cd59, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-44ce18b2, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-63c0e4be, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-37a58132, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-ad31761d, #w-node-_744887ac-09f0-b879-7116-30de016f2976-ad31761d, #w-node-_744887ac-09f0-b879-7116-30de016f2958-ad31761d, #w-node-_2a5625f9-dd8d-380a-cae9-54681137f70f-ad31761d, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-3aed85f0, #w-node-_744887ac-09f0-b879-7116-30de016f2976-3aed85f0, #w-node-_744887ac-09f0-b879-7116-30de016f2958-3aed85f0, #w-node-_744887ac-09f0-b879-7116-30de016f2967-3aed85f0, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-1e33a44f, #w-node-_744887ac-09f0-b879-7116-30de016f2976-1e33a44f, #w-node-_744887ac-09f0-b879-7116-30de016f2958-1e33a44f, #w-node-_744887ac-09f0-b879-7116-30de016f2967-1e33a44f, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-c355db60, #w-node-_744887ac-09f0-b879-7116-30de016f2976-c355db60, #w-node-_744887ac-09f0-b879-7116-30de016f2958-c355db60, #w-node-_744887ac-09f0-b879-7116-30de016f2967-c355db60 {
+#w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-22573b68, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-c0c07a92, #w-node-_3f36eeec-3995-d4da-a5a0-c418d1a2468b-c0c07a92, #w-node-_3f36eeec-3995-d4da-a5a0-c418d1a2467c-c0c07a92, #w-node-_3f36eeec-3995-d4da-a5a0-c418d1a2469a-c0c07a92, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-f8203bac, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-acf0912d, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-d04c00ec, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-3bb8942a, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-dc189bd4, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-19f60f72, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-1eff49ec, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-4d96c5bd, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-6d69b380, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-19f9cd59, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-44ce18b2, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-63c0e4be, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-37a58132, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-ad31761d, #w-node-_744887ac-09f0-b879-7116-30de016f2976-ad31761d, #w-node-_744887ac-09f0-b879-7116-30de016f2958-ad31761d, #w-node-_2a5625f9-dd8d-380a-cae9-54681137f70f-ad31761d, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-3aed85f0, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-1e33a44f, #w-node-a050b8b2-eac7-4452-17c8-fe8bacc7dcf7-1e33a44f, #w-node-_744887ac-09f0-b879-7116-30de016f2976-1e33a44f, #w-node-_744887ac-09f0-b879-7116-30de016f2958-1e33a44f, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-c355db60, #w-node-_3726c012-eeb4-6c52-8a04-0d2f83a69d5b-c355db60, #w-node-_744887ac-09f0-b879-7116-30de016f2976-c355db60, #w-node-_744887ac-09f0-b879-7116-30de016f2958-c355db60, #w-node-_1bc59fde-0d02-35d8-1d55-b335641727c0-66d7eaec, #w-node-_744887ac-09f0-b879-7116-30de016f2967-66d7eaec, #w-node-_744887ac-09f0-b879-7116-30de016f2976-66d7eaec, #w-node-_744887ac-09f0-b879-7116-30de016f2958-66d7eaec {
   grid-area: span 1 / span 1 / span 1 / span 1;
 }
 

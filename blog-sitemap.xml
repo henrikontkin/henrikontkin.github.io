@@ -3,6 +3,13 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <url>lisaa-valtaa-paattajille-kohti-valtuustokauden-viimeista-syksya <loc>
+        https://www.henrikontkin.fi/julkaisu/lisaa-valtaa-paattajille-kohti-valtuustokauden-viimeista-syksya</loc>
+        <priority>
+        0.50</priority>
+        <xhtml:link rel="alternate" hreflang="fi"
+            href="https://www.henrikontkin.fi/julkaisu/lisaa-valtaa-paattajille-kohti-valtuustokauden-viimeista-syksya" />
+    </url>
     <url>
         <loc>
             https://www.henrikontkin.fi/julkaisu/kaupunkipolitiikan-kesalaitumet-pysakointi-sailyy-jarvenpaassa-maksuttomana-mutta-kaupungin-peittavat-tummat-talouspilvet</loc>
