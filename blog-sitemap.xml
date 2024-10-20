@@ -3,10 +3,19 @@
     xmlns:xhtml="http://www.w3.org/1999/xhtml"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <url>lisaa-valtaa-paattajille-kohti-valtuustokauden-viimeista-syksya <loc>
-        https://www.henrikontkin.fi/julkaisu/lisaa-valtaa-paattajille-kohti-valtuustokauden-viimeista-syksya</loc>
+    <url>
+        <loc>
+            https://www.henrikontkin.fi/julkaisu/ensi-vuoden-talous-selkiytyy-saastoja-etsitaan-mutta-veroja-ei-olla-korottamassa</loc>
         <priority>
-        0.50</priority>
+            0.50</priority>
+        <xhtml:link rel="alternate" hreflang="fi"
+            href="https://www.henrikontkin.fi/julkaisu/ensi-vuoden-talous-selkiytyy-saastoja-etsitaan-mutta-veroja-ei-olla-korottamassa" />
+    </url>
+    <url>
+        <loc>
+            https://www.henrikontkin.fi/julkaisu/lisaa-valtaa-paattajille-kohti-valtuustokauden-viimeista-syksya</loc>
+        <priority>
+            0.50</priority>
         <xhtml:link rel="alternate" hreflang="fi"
             href="https://www.henrikontkin.fi/julkaisu/lisaa-valtaa-paattajille-kohti-valtuustokauden-viimeista-syksya" />
     </url>
