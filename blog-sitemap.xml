@@ -5,6 +5,14 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>
+            https://www.henrikontkin.fi/julkaisu/uutisia-minut-nimitettiin-jarvenpaan-kaupunginhallituksen-jaseneksi</loc>
+        <priority>
+            0.50</priority>
+        <xhtml:link rel="alternate" hreflang="fi"
+            href="https://www.henrikontkin.fi/julkaisu/uutisia-minut-nimitettiin-jarvenpaan-kaupunginhallituksen-jaseneksi" />
+    </url>
+    <url>
+        <loc>
             https://www.henrikontkin.fi/julkaisu/ensi-vuoden-talous-selkiytyy-saastoja-etsitaan-mutta-veroja-ei-olla-korottamassa</loc>
         <priority>
             0.50</priority>
