@@ -2043,6 +2043,15 @@ blockquote {
   font-weight: 600;
 }
 
+.cybotcookiebotdialogactive {
+  text-transform: none;
+  font-weight: 400;
+}
+
+.cybotcookiebotdialogactive.hide {
+  display: none;
+}
+
 @media screen and (min-width: 1440px) {
   .hero {
     padding-top: 100px;
