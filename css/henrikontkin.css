@@ -2061,6 +2061,14 @@ blockquote {
   display: none;
 }
 
+.avatar-image {
+  object-fit: cover;
+  object-position: 50% 30%;
+  border-radius: 50%;
+  width: 90px;
+  height: 90px;
+}
+
 @media screen and (min-width: 1440px) {
   .hero {
     padding-top: 100px;
