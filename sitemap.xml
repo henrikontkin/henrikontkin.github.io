@@ -1,41 +1,38 @@
 <?xml version='1.0' encoding='utf-8'?>
-<ns:urlset xmlns:html="http://www.w3.org/1999/xhtml"
-    xmlns:ns="http://www.sitemaps.org/schemas/sitemap/0.9"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-    <ns:url>
-        <ns:loc>https://www.henrikontkin.fi/</ns:loc>
-        <ns:priority>1.00</ns:priority>
+<ns0:urlset xmlns:html="http://www.w3.org/1999/xhtml" xmlns:ns0="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+    <ns0:url>
+        <ns0:loc>https://www.henrikontkin.fi/</ns0:loc>
+        <ns0:priority>1.00</ns0:priority>
         <html:link rel="alternate" hreflang="fi" href="https://www.henrikontkin.fi/" />
-    </ns:url>
-    <ns:url>
-        <ns:loc>https://www.henrikontkin.fi/henri</ns:loc>
-        <ns:priority>0.80</ns:priority>
+    </ns0:url>
+    <ns0:url>
+        <ns0:loc>https://www.henrikontkin.fi/henri</ns0:loc>
+        <ns0:priority>0.80</ns0:priority>
         <html:link rel="alternate" hreflang="fi" href="https://www.henrikontkin.fi/henri" />
-    </ns:url>
-    <ns:url>
-        <ns:loc>https://www.henrikontkin.fi/kuntavaalit</ns:loc>
-        <ns:priority>0.80</ns:priority>
+    </ns0:url>
+    <ns0:url>
+        <ns0:loc>https://www.henrikontkin.fi/kuntavaalit</ns0:loc>
+        <ns0:priority>0.80</ns0:priority>
         <html:link rel="alternate" hreflang="fi" href="https://www.henrikontkin.fi/kuntavaalit" />
-    </ns:url>
-    <ns:url>
-        <ns:loc>https://www.henrikontkin.fi/aluevaalit</ns:loc>
-        <ns:priority>0.80</ns:priority>
+    </ns0:url>
+    <ns0:url>
+        <ns0:loc>https://www.henrikontkin.fi/aluevaalit</ns0:loc>
+        <ns0:priority>0.80</ns0:priority>
         <html:link rel="alternate" hreflang="fi" href="https://www.henrikontkin.fi/aluevaalit" />
-    </ns:url>
-    <ns:url>
-        <ns:loc>https://www.henrikontkin.fi/blogi</ns:loc>
-        <ns:priority>0.80</ns:priority>
+    </ns0:url>
+    <ns0:url>
+        <ns0:loc>https://www.henrikontkin.fi/blogi</ns0:loc>
+        <ns0:priority>0.80</ns0:priority>
         <html:link rel="alternate" hreflang="fi" href="https://www.henrikontkin.fi/blogi" />
-    </ns:url>
-    <ns:url>
-        <ns:loc>https://www.henrikontkin.fi/ota-yhteytta</ns:loc>
-        <ns:priority>0.80</ns:priority>
+    </ns0:url>
+    <ns0:url>
+        <ns0:loc>https://www.henrikontkin.fi/ota-yhteytta</ns0:loc>
+        <ns0:priority>0.80</ns0:priority>
         <html:link rel="alternate" hreflang="fi" href="https://www.henrikontkin.fi/referenssit" />
-    </ns:url>
-    <ns:url>
-        <ns:loc>https://www.henrikontkin.fi/tule-mukaan</ns:loc>
-        <ns:priority>0.80</ns:priority>
+    </ns0:url>
+    <ns0:url>
+        <ns0:loc>https://www.henrikontkin.fi/tule-mukaan</ns0:loc>
+        <ns0:priority>0.80</ns0:priority>
         <html:link rel="alternate" hreflang="fi" href="https://www.henrikontkin.fi/tule-mukaan" />
-    </ns:url>
-</ns:urlset>
+    </ns0:url>
+</ns0:urlset>
