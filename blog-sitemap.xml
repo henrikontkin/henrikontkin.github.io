@@ -5,6 +5,14 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>
+            https://www.henrikontkin.fi/julkaisu/kenelle-luotat-tuhannet-veroeurosi</loc>
+        <priority>
+            0.50</priority>
+        <xhtml:link rel="alternate" hreflang="fi"
+            href="https://www.henrikontkin.fi/julkaisu/kenelle-luotat-tuhannet-veroeurosi" />
+    </url>
+    <url>
+        <loc>
             https://www.henrikontkin.fi/julkaisu/jarkeva-kaupunki-investoi-nyt-maltilla</loc>
         <priority>
             0.50</priority>
