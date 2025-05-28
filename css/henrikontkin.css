@@ -713,6 +713,8 @@ figcaption {
 
 .section.cta {
   background-color: var(--apuväri-1);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .title-fade {
@@ -820,6 +822,10 @@ figcaption {
 
 .absolute-image.align-left-0 {
   object-position: 0% 50%;
+}
+
+.absolute-image.cover-left-30 {
+  object-position: 30% 50%;
 }
 
 .margin-20px {
