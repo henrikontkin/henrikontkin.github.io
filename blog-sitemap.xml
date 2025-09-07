@@ -5,6 +5,14 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
         <loc>
+            https://www.henrikontkin.fi/julkaisu/jarvenpaa-kasvualustana-evasta-uuteen-kaupunkistrategiaan</loc>
+        <priority>
+            0.50</priority>
+        <xhtml:link rel="alternate" hreflang="fi"
+            href="https://www.henrikontkin.fi/julkaisu/jarvenpaa-kasvualustana-evasta-uuteen-kaupunkistrategiaan" />
+    </url>
+    <url>
+        <loc>
             https://www.henrikontkin.fi/julkaisu/vahvaa-tukea-ja-muutoksen-tuulta---analyysini-kunta--ja-aluevaaleista-2025</loc>
         <priority>
             0.50</priority>
