@@ -2110,15 +2110,7 @@ figcaption {
 }
 
 @media screen and (min-width: 1920px) {
-  .hero {
-    min-height: auto;
-  }
-
-  .absolute-image {
-    height: 600px;
-  }
-
-  .hero-2, .hero-3, .hero-5 {
+  .hero, .hero-2, .hero-3, .hero-5 {
     min-height: auto;
   }
 }
