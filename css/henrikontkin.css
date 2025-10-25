@@ -74,6 +74,14 @@ h3 {
   line-height: 30px;
 }
 
+h6 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  font-weight: bold;
+  line-height: 18px;
+}
+
 p {
   color: var(--musta);
   letter-spacing: 0;
@@ -1615,6 +1623,16 @@ figcaption {
   font-weight: 400;
 }
 
+.blog-rich-text-block h6 {
+  color: var(--apuväri-1);
+  text-transform: none;
+  margin-top: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
 .span-accent {
   color: var(--pääväri);
 }
@@ -2561,6 +2579,10 @@ figcaption {
 
   .blog-wrapper {
     max-width: 100%;
+  }
+
+  .blog-rich-text-block h6 {
+    font-size: 22px;
   }
 
   .home-about-image-wrapper, .relative-image-wrapper.tule-mukaan-150 {
