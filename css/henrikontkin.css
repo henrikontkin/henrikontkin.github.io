@@ -808,10 +808,6 @@ figcaption {
   object-fit: contain;
 }
 
-.absolute-image.join {
-  object-position: 50% 50%;
-}
-
 .absolute-image.align-left-30 {
   object-position: 30% 50%;
 }
@@ -853,35 +849,6 @@ figcaption {
   flex: none;
   align-self: flex-start;
   margin-right: 15px;
-}
-
-.grid {
-  grid-column-gap: 15px;
-  grid-row-gap: 15px;
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-auto-columns: 1fr;
-  align-items: end;
-  margin-top: 20px;
-  display: grid;
-  position: relative;
-}
-
-.grid.two-columns {
-  grid-column-gap: 32px;
-  grid-row-gap: 32px;
-  grid-template-columns: 1fr 1fr;
-  align-items: stretch;
-}
-
-.grid.two-columns.ratio-1-2 {
-  grid-template-columns: 1fr 2fr;
-  align-items: center;
-  min-height: 0;
-}
-
-.grid.two-columns.kuntavaalit {
-  align-items: center;
 }
 
 .feautes-item {
@@ -1607,7 +1574,7 @@ figcaption {
 .blog-rich-text-block li {
   letter-spacing: 0;
   text-transform: none;
-  margin-bottom: 10px;
+  margin-bottom: 16px;
   font-family: Montserrat, sans-serif;
   font-size: 15px;
   font-weight: 400;
@@ -1631,6 +1598,11 @@ figcaption {
   font-size: 24px;
   font-weight: 600;
   line-height: 30px;
+}
+
+.blog-rich-text-block ul {
+  margin-top: 16px;
+  margin-bottom: 16px;
 }
 
 .span-accent {
@@ -1741,10 +1713,6 @@ figcaption {
   height: 20px;
 }
 
-.space._60 {
-  height: 60px;
-}
-
 .social-link-2 {
   margin-left: 15px;
   margin-right: 15px;
@@ -1807,14 +1775,6 @@ figcaption {
   display: flex;
 }
 
-.avatar-image-wrapper {
-  border-radius: 50%;
-  width: 90px;
-  max-width: 100%;
-  height: 90px;
-  overflow: hidden;
-}
-
 .small-text {
   font-size: 14px;
   font-weight: 600;
@@ -1860,10 +1820,6 @@ figcaption {
   padding-top: 100%;
   position: relative;
   overflow: hidden;
-}
-
-.relative-image-wrapper.join {
-  padding-top: 65%;
 }
 
 .relative-image-wrapper.tule-mukaan-150 {
@@ -1989,10 +1945,6 @@ figcaption {
   color: var(--apuväri-1);
 }
 
-.election-rich-text-block.larger-font p {
-  font-size: 18px;
-}
-
 .election-rich-text-block h3 {
   color: var(--apuväri-1);
   letter-spacing: 0;
@@ -2073,11 +2025,6 @@ figcaption {
   display: grid;
 }
 
-.values-grid.three-columns {
-  grid-template-rows: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-}
-
 .center-text {
   text-align: center;
 }
@@ -2088,15 +2035,6 @@ figcaption {
   margin-bottom: 0;
   padding: 10px;
   font-weight: 600;
-}
-
-.cybotcookiebotdialogactive {
-  text-transform: none;
-  font-weight: 400;
-}
-
-.cybotcookiebotdialogactive.hide {
-  display: none;
 }
 
 .avatar-image {
@@ -2245,14 +2183,6 @@ figcaption {
 
   .title-fade.for-fade {
     font-size: 32px;
-  }
-
-  .grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .grid.two-columns.kuntavaalit {
-    grid-template-columns: 1fr;
   }
 
   .blog-list {
@@ -2489,12 +2419,7 @@ figcaption {
     font-size: 1.25rem;
   }
 
-  .grid {
-    grid-template-columns: 1fr;
-    margin-top: -8px;
-  }
-
-  .grid.two-columns, .blog-list {
+  .blog-list {
     grid-template-columns: 1fr;
   }
 
@@ -2821,18 +2746,8 @@ figcaption {
     line-height: 1.2;
   }
 
-  .absolute-image.tall, .absolute-image.join {
+  .absolute-image.tall {
     height: 100%;
-  }
-
-  .grid {
-    grid-template-columns: 1fr;
-  }
-
-  .grid.two-columns {
-    grid-column-gap: 26px;
-    grid-row-gap: 26px;
-    grid-template-columns: 1fr;
   }
 
   .feautes-item._2 {
@@ -3042,10 +2957,6 @@ figcaption {
 
   .relative-image-wrapper.tule-mukaan-hero {
     padding-top: 100%;
-  }
-
-  .home-about-image.mobile-scale-1-2 {
-    transform: scale(1.2);
   }
 
   .home-image-shape {
